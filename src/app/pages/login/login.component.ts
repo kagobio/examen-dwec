@@ -40,4 +40,9 @@ export class LoginComponent {
       });
     }
   }
+
+  // 🔹 Método para ir a la pantalla de registro
+  goToRegister() {
+    this.router.navigate(['/register']);
+  }
 }
